@@ -28,6 +28,19 @@ article h1 {
     margin-bottom: 10px;
 }
 
+article p {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+/*second title*/
+
+article h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
 
 /*memorial container*/
 
@@ -81,7 +94,10 @@ article h1 {
 /*unordered list li*/
 
 .memorial-container__time-line-container li {
-    margin: 10px;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
+
+
+/*final quote*/
