@@ -1,0 +1,56 @@
+/*fonts import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+
+/*general styles*/
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+
+/*main section styles*/
+
+main {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+
+/*memorial container*/
+
+.memorial-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Image model*/
+
+#memorial-container__image-container {
+    background: whitesmoke;
+    padding: 25px;
+    margin: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/*image*/
+
+#memorial-container__image-container img {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*unordered list*/
+
+.memorial-container__time-line-container {
+    text-align: left;
+}
