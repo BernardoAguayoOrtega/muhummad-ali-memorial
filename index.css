@@ -20,6 +20,15 @@ main {
 }
 
 
+/*article*/
+
+article h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
 /*memorial container*/
 
 .memorial-container {
@@ -51,6 +60,28 @@ main {
 
 /*unordered list*/
 
+
+/*unordered list general*/
+
 .memorial-container__time-line-container {
     text-align: left;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*unordered list ul*/
+
+.memorial-container__time-line-container ul {
+    margin: 0 auto;
+}
+
+
+/*unordered list li*/
+
+.memorial-container__time-line-container li {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
 }
