@@ -78,22 +78,16 @@ article h2 {
 
 .memorial-container__time-line-container {
     text-align: left;
-    max-width: 450px;
+    max-width: 5000px;
     margin: 0 auto;
     padding: 0;
 }
 
 
-/*unordered list ul*/
+/*p elements*/
 
-.memorial-container__time-line-container ul {
+.memorial-container__time-line-container p {
     margin: 0 auto;
-}
-
-
-/*unordered list li*/
-
-.memorial-container__time-line-container li {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
