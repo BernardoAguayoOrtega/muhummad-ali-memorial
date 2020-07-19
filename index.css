@@ -90,6 +90,28 @@ article h2 {
 }
 
 
+/*fight-container*/
+
+
+/*general images*/
+
+.main-container__general-image-container {
+    margin: 0;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.main-container__general-image-container img {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 0;
+    max-width: 200px;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+
 /*final quote*/
 
 
