@@ -42,9 +42,9 @@ article h2 {
 }
 
 
-/*memorial container*/
+/*main container*/
 
-.memorial-container {
+.main-container {
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +52,7 @@ article h2 {
 
 /*Image model*/
 
-#memorial-container__image-container {
+#main-container__image-container {
     background: whitesmoke;
     padding: 25px;
     margin: 0;
@@ -63,7 +63,7 @@ article h2 {
 
 /*image*/
 
-#memorial-container__image-container img {
+#main-container__image-container img {
     width: 100%;
     display: block;
     height: auto;
@@ -71,22 +71,18 @@ article h2 {
 }
 
 
-/*unordered list*/
+/*rankin*/
 
-
-/*unordered list general*/
-
-.memorial-container__time-line-container {
-    text-align: left;
-    max-width: 5000px;
-    margin: 0 auto;
-    padding: 0;
+.ranking-container {
+    margin: auto;
+    max-width: 800px;
 }
 
 
 /*p elements*/
 
-.memorial-container__time-line-container p {
+.ranking-container p {
+    text-align: left;
     margin: 0 auto;
     font-size: 20px;
     font-weight: 400;
