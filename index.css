@@ -114,5 +114,6 @@ article h2 {
 
 /*final quote*/
 
-
-/*prueba*/
+.main-container__final-quote {
+    margin-top: 15px;
+}
